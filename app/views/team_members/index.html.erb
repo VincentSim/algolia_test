@@ -1,0 +1,7 @@
+<% @team_members.each do |tm| %>
+  <%= tm.name %>
+  <%= tm.function %>
+  <%= tm.funny_quote %>
+  <img src="<%= tm.photo %>">
+  <%= tm.position %>
+<% end %>
